@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     background-color: rgb(247, 247, 241);
@@ -20,11 +20,12 @@
     text-decoration: none;
     color: black;
     margin-left: 5rem;
-    /* background-color: hotpink; */
+    background-color: hotpink;
     border:  3px dotted black;
 
 }
 
 .link:hover {
-    /* background-color: whitesmoke; */
-}
+    background-color: whitesmoke;
+} 
+/*

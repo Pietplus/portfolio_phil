@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(247, 247, 241);
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+
+.header {
+    margin: 3rem;
+    margin-left: 4rem;
+    pointer-events: none;
+    cursor: default;
+}
+
+.link {
+    font-size: 1.3rem;
+    margin: 1rem;
+    padding: 1rem;
+    /* text-decoration: none; */
+    color: black;
+    /* margin-left: 5rem; */
+    /* border:  3px dotted black; */
+
+}
+
+.link:hover {
+     background-color: whitesmoke; 
+} 
+
+.link a:focus   { color: red; color: black;}
+
+/* ____ stickie header____ */
+.header {
+    padding: 10px 16px;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the header with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 102px;
+  }
+ 
+
+
+
+
+
+
+  .top {
+      text-decoration: none;
+  }
